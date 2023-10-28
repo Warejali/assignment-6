@@ -47,7 +47,7 @@ const NavBar = () => {
                             {/* <li><a>Accessories</a></li> */}
                             <li tabIndex={0}>
                                 <details>
-                                    <summary>Categories</summary>
+                                    Categories
                                     <ul className=" w-64 p-2 px-10 bg-slate-100 z-50">
                                         <li><a to="/search?category=Motherboard">CPU / Processor</a></li>
                                         <li><a to="/search?category=Motherboard">Motherboard</a></li>
