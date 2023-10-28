@@ -46,9 +46,8 @@ const NavBar = () => {
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                             {/* <li><a>Accessories</a></li> */}
                             <li tabIndex={0}>
-                                
-                                <summary>Categories</summary>
-
+                                <details>
+                                    <summary>Categories</summary>
                                     <ul className=" w-64 p-2 px-10 bg-slate-100 z-50">
                                         <li><a to="/search?category=Motherboard">CPU / Processor</a></li>
                                         <li><a to="/search?category=Motherboard">Motherboard</a></li>
@@ -58,6 +57,7 @@ const NavBar = () => {
                                         <li><a to="/search?category=Motherboard">Monitor</a></li>
                                         <li><a to="/search?category=Motherboard">Others</a></li>
                                     </ul>
+                                </details>
                             </li>
                             {/* <li><a>Gadget</a></li> */}
                         </ul>
@@ -81,7 +81,7 @@ const NavBar = () => {
                     <ul className="menu menu-horizontal px-1">
                         {/* <li><a>Accessories</a></li> */}
                         <li tabIndex={0}>
-                            
+                            <details>
                                 <summary>Categories</summary>
                                 <ul className=" w-64 p-2 px-10 bg-slate-100 z-50">
                                     <li>
@@ -115,9 +115,8 @@ const NavBar = () => {
                                         </Link>
                                     </li>
                                 </ul>
-                           
+                            </details>
                         </li>
-                        {/* <li><a>Gadget</a></li> */}
                     </ul>
                 </div>
                 <div className="navbar-end">
