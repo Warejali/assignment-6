@@ -59,7 +59,7 @@ const NavBar = () => {
                                     </ul>
                                 </details>
                             </li>
-                            <li><a>Gadget</a></li>
+                            {/* <li><a>Gadget</a></li> */}
                         </ul>
                     </div>
                     <div className="hidden lg:block">
@@ -117,7 +117,7 @@ const NavBar = () => {
                                 </ul>
                             </details>
                         </li>
-                        <li><a>Gadget</a></li>
+                        {/* <li><a>Gadget</a></li> */}
                     </ul>
                 </div>
                 <div className="navbar-end">

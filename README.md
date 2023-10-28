@@ -1,5 +1,9 @@
 # PC Builder
 
+# Admin Login info: 
+## warej@easybidauctions.com
+## Password: 123456
+
 Website [Live link](https://assignment-6-vercel.vercel.app).
 
 
